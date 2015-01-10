@@ -45,9 +45,7 @@ public class QuizActivity extends ActionBarActivity {
 
         }
 
-        Toast.makeText(this, messageResId, Toast.LENGTH_SHORT);
-
-
+        Toast.makeText(this, messageResId, Toast.LENGTH_SHORT).show();
 
     }
 
